@@ -1,0 +1,9 @@
+General:
+
+It will be multi-platform.
+To the player, everything will be written in python.
+
+
+Networking:
+
+The virtual computers will see networking just as real computers do, but on the real computer packets are sent/recieved to/from a centrailized server.

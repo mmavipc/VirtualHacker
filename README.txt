@@ -1,1 +1,1 @@
-VirtualHacker is a realistic hacking game, see the files in the design folder for more info.
+VirtualHacker is a realistic hacking game, see the files in the design file for more info.
