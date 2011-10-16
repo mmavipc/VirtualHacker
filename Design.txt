@@ -2,8 +2,10 @@ General:
 
 It will be multi-platform.
 To the player, everything will be written in python.
+Players will have accounts on the servers they join, they have credits attached to these accounts.
+Players will not be able to use these credits in the virtual world without putting them in a bank first, minimum deposit is 5k credits, or all the credits they own.
 
 
 Networking:
 
-The virtual computers will see networking just as real computers do, but on the real computer packets are sent/recieved to/from a centrailized server.
+The virtual computers will see networking just as real computers do, but on the real computer packets are sent/recieved to/from a centralized server.
