@@ -1,0 +1,6 @@
+#visual studio bullshit
+ipch/*
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.suo
