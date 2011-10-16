@@ -13,24 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\OS Abstraction">
+      <UniqueIdentifier>{d803ca19-d2a3-4a01-8faf-4ccc52a88866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OS Abstraction">
+      <UniqueIdentifier>{f57ca4a0-1d93-4a99-897e-3a391a5b54de}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
+    <ClInclude Include="global.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="OS Abstraction\GenericSockets.h">
+      <Filter>Header Files\OS Abstraction</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="VirtualHacker.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OS Abstraction\GenericSockets.cpp">
+      <Filter>Source Files\OS Abstraction</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

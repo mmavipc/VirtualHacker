@@ -1,6 +1,9 @@
 #visual studio bullshit
-ipch/*
+*/ipch/*
 *.sdf
 *.opensdf
 *.vcxproj.user
 *.suo
+
+#Built files
+Client/Debug/*
